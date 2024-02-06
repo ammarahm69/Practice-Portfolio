@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: lightblue;
+}
+
+.nav {
+    display: flex;
+    margin-top: 12px;
+    text-decoration: none;
+    justify-content: right;
+}
+
+ul {
+    display: flex;
+    padding: 5px 35px;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    padding: 0 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: hsla(277, 100%, 49%, 0.334);
+}
+
+.container {
+    margin-top: 4.8rem;
+    width: 50%;
+    margin-left: 2.7em;
+}
+
+#heading {
+    font-size: 24px;
+    color: unset;
+    font-weight: bolder;
+}
+
+#subheading {
+    margin-bottom: 4px;
+    margin-top: 29px;
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+#para {
+    padding: 0px 6px;
+    color: purple;
+    font-size: 16px;
+}
+
+.click {
+    display: flex;
+    margin-top: 38px;
+    margin-left: 46px;
+    padding: 0 9px;
+
+}
+
+#hire button {
+    padding: 10px 34px;
+    font-family: Arial;
+    cursor: pointer;
+    border: 2px solid hsl(277, 100%, 49%);
+    border-radius: 2px;
+    color: hsl(277, 100%, 54%);
+    font-size: 1rem;
+    text-shadow:
+        0 0 2px royalblue,
+        0 0 8px hsl(277, 100%, 54%);
+    box-shadow: 0 0 0.4em 0 hsl(277, 100%, 54%);
+    transition: transform 0.8s ease;
+
+
+
+
+}
+
+#contact button {
+    box-shadow: 0 0 0.4em 0 hsl(277, 100%, 54%);
+    text-shadow: 0 0 2px royalblue, 0 0 8px hsl(277, 100%, 54%);
+    font-size: 1rem;
+    color: hsl(277, 100%, 54%);
+    padding: 10px 30px;
+    font-family: Arial;
+    cursor: pointer;
+    border: 2px solid hsl(277, 100%, 49%);
+    border-radius: 2px;
+    transition: transform 0.8s ease;
+
+}
+
+#contact {
+    margin-left: 66px;
+    font-family: Arial;
+}
+
+#hire button:hover {
+    background-color: rgb(248, 105, 248);
+    color: black;
+    text-shadow: none;
+    transform: scale(1.2);
+
+
+}
+
+#contact button:hover {
+    background-color: rgb(248, 105, 248);
+    color: black;
+    text-shadow: none;
+    transform: scale(1.2);
+}
+
+.about {
+    display: grid;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+    text-align: center;
+    justify-content: center;
+}
+
+#about-heading {
+    font-family: 'Arial Narrow Bold';
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: navy;
+}
+
+#about-para {
+    padding: 10px 23px;
+    color: purple;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+
+}
+
+/* Availble  */
+#follow-me {
+    margin-top: 12px;
+}
+
+#follow-me h3 {
+    text-decoration: underline;
+    margin-bottom: 12px;
+}
+
+#follow-me a {
+    padding: 0 15px;
+}
+
+.footer-sec {
+    background-color: black;
+    width: 100%;
+    height: 50%;
+}
+
+#text {
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+}
